@@ -6,5 +6,5 @@ export function Lista() {
     })
 
     return <p>{JSON.stringify(data)}</p>
-
+ 
 }

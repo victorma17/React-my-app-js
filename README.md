@@ -4,3 +4,5 @@
   yarn dev
 
   yarn add react-query
+
+  yarn add react-hook-form

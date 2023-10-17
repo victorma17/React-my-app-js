@@ -7,6 +7,7 @@ import { Home } from './componentes/Home'
 import { Lista } from './componentes/lista.jsx'
 // import { Producto } from './Producto'
 import { QueryClient, QueryClientProvider } from 'react-query'
+import { Tx } from './componentes/Tx.jsx'
 
 const queryClient = new QueryClient()
 
@@ -20,6 +21,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path="home" element={<p>Home principal </p>}></Route>
           <Route path="/hey" element={<Home></Home>}></Route>
           <Route path="lista" element={<p><Lista></Lista> </p>}></Route>
+          <Route path="tx" element={<p><Tx></Tx> </p>}></Route>
           <Route path="*" element={<p>No válida </p>}></Route>
 
           {/*   Comment Section 
